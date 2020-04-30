@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.FLappyBird">
+    <children>
+        <Label fx:id="lblInfo" layoutX="14.0" layoutY="14.0" prefHeight="15.0" prefWidth="220.0" text="Test JavaFX Games" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+        <Canvas fx:id="mainCanvas" height="400.0" width="600.0" />
+    </children>
+</AnchorPane>
